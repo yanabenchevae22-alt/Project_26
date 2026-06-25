@@ -7,9 +7,6 @@
 /Users/qnabencheva/Downloads/Project_26/TestProject1/obj/Debug/net10.0/TestProject1.csproj.CoreCompileInputs.cache
 /Users/qnabencheva/Downloads/Project_26/TestProject1/bin/Debug/net10.0/Rivers_Dams_Bulgaria.deps.json
 /Users/qnabencheva/Downloads/Project_26/TestProject1/bin/Debug/net10.0/Rivers_Dams_Bulgaria.runtimeconfig.json
-/Users/qnabencheva/Downloads/Project_26/TestProject1/bin/Debug/net10.0/appsettings.Development.json
-/Users/qnabencheva/Downloads/Project_26/TestProject1/bin/Debug/net10.0/appsettings.json
-/Users/qnabencheva/Downloads/Project_26/TestProject1/bin/Debug/net10.0/Rivers_Dams_Bulgaria.staticwebassets.endpoints.json
 /Users/qnabencheva/Downloads/Project_26/TestProject1/bin/Debug/net10.0/Rivers_Dams_Bulgaria
 /Users/qnabencheva/Downloads/Project_26/TestProject1/bin/Debug/net10.0/NUnit3.TestAdapter.pdb
 /Users/qnabencheva/Downloads/Project_26/TestProject1/bin/Debug/net10.0/nunit.engine.dll
@@ -235,3 +232,17 @@
 /Users/qnabencheva/Downloads/Project_26/TestProject1/obj/Debug/net10.0/TestProject1.pdb
 /Users/qnabencheva/Downloads/Project_26/TestProject1/obj/Debug/net10.0/TestProject1.genruntimeconfig.cache
 /Users/qnabencheva/Downloads/Project_26/TestProject1/obj/Debug/net10.0/ref/TestProject1.dll
+/Users/qnabencheva/Downloads/Project_26/TestProject1/obj/Debug/net10.0/TestProject1.sourcelink.json
+/Users/qnabencheva/Downloads/Project_26/TestProject1/bin/Debug/net10.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/qnabencheva/Downloads/Project_26/TestProject1/bin/Debug/net10.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/qnabencheva/Downloads/Project_26/TestProject1/bin/Debug/net10.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/qnabencheva/Downloads/Project_26/TestProject1/bin/Debug/net10.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/qnabencheva/Downloads/Project_26/TestProject1/bin/Debug/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/qnabencheva/Downloads/Project_26/TestProject1/bin/Debug/net10.0/Microsoft.Extensions.Logging.dll
+/Users/qnabencheva/Downloads/Project_26/TestProject1/bin/Debug/net10.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/qnabencheva/Downloads/Project_26/TestProject1/bin/Debug/net10.0/Microsoft.Extensions.Options.dll
+/Users/qnabencheva/Downloads/Project_26/TestProject1/bin/Debug/net10.0/Microsoft.Extensions.Primitives.dll
+/Users/qnabencheva/Downloads/Project_26/TestProject1/bin/Debug/net10.0/System.Diagnostics.EventLog.dll
+/Users/qnabencheva/Downloads/Project_26/TestProject1/bin/Debug/net10.0/System.Security.Cryptography.Pkcs.dll
+/Users/qnabencheva/Downloads/Project_26/TestProject1/bin/Debug/net10.0/runtimes/win/lib/net9.0/System.Diagnostics.EventLog.dll
+/Users/qnabencheva/Downloads/Project_26/TestProject1/bin/Debug/net10.0/runtimes/win/lib/net9.0/System.Security.Cryptography.Pkcs.dll

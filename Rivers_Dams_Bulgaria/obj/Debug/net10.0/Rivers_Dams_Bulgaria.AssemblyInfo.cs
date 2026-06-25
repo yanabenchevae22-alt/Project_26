@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Rivers_Dams_Bulgaria")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9eef5171cf4029b94bb323eed0b2ec180cd75ad")]
 [assembly: System.Reflection.AssemblyProductAttribute("Rivers_Dams_Bulgaria")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Rivers_Dams_Bulgaria")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

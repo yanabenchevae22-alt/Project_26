@@ -1522,10 +1522,7 @@
         },
         "runtime": {
           "bin/placeholder/Rivers_Dams_Bulgaria.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       }
     }
   },

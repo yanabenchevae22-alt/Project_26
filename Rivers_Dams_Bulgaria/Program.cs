@@ -2,19 +2,42 @@ using Microsoft.EntityFrameworkCore;
 using Rivers_Dams_Bulgaria.Data;
 using Rivers_Dams_Bulgaria.View;
 
-var builder = WebApplication.CreateBuilder(args);
+var options = new DbContextOptionsBuilder<MyContext>()
+    .UseSqlite(Configuration.ConnectionString)
+    .Options;
 
-builder.Services.AddDbContext<MyContext>(options =>
-    options.UseSqlite(Configuration.ConnectionString));
+using var context = new MyContext(options);
+context.Database.EnsureCreated();
 
-var app = builder.Build();
-
-app.MapGet("/", () => "Hello World!");
-
-using (var scope = app.Services.CreateScope())
+while (true)
 {
-    var context = scope.ServiceProvider.GetRequiredService<MyContext>();
-    RiverView.RunCrudDemo(context);
-}
+    Display.ShowMainMenu(context);
 
-app.Run();
+    var choice = Console.ReadLine();
+
+    switch (choice)
+    {
+        case "1":
+            Display.ShowCreateMenu(context);
+            break;
+        case "2":
+            Display.ShowReadMenu(context);
+            break;
+        case "3":
+            Display.ShowUpdateMenu(context);
+            break;
+        case "4":
+            Display.ShowDeleteMenu(context);
+            break;
+        case "0":
+            Console.WriteLine("Goodbye!");
+            return;
+        default:
+            Console.WriteLine("Invalid option. Please try again.");
+            break;
+    }
+
+    Console.WriteLine();
+    Console.WriteLine("Press Enter to continue...");
+    Console.ReadLine();
+}

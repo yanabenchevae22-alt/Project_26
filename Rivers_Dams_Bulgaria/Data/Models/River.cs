@@ -1,11 +1,12 @@
 namespace Rivers_Dams_Bulgaria.Data.Models;
 
-
-    using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 public class River
 {
     [Key]
+    [DatabaseGenerated(DatabaseGeneratedOption.None)]
     public int RiverId { get; set; }
 
     [Required]
